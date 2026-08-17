@@ -2,3 +2,13 @@
 This is for those who don't like most boring sound machines. All you need to do is download the app (recommend using a Raspberry Pi 4 or newer for low power usage).
 
 To start, create groups, upload audio files, and click Start. You can even use this as a regular audio player. And there are many other features, like an alarm. Enjoy!!
+
+Create groups: choose a name, color weather it is a main sound or an effect. Effect sounds constantly play, for example, a 3-minute file of crickets,
+and an effect group is for something like thunder. You can have multiple files, and they will be picked at random. You can choose when this happens
+. Also, you can choose to limit, for example, after 5 plays or after a certain amount of time (fixed or random).
+
+Notice you have to find or make your own audio files (.mp3 or .wav). You can choose what you want so you don't get unexpected sounds.
+
+The music player is just a basic audio player with playlists, a timer to end, and auto-stops when you start your night session.
+
+You can have your session start manually, with a timer, or at a specific time. To end the session, you can end it manually, with a timer, or with an alarm. (Make sure to add an alarm file in the preferences menu; otherwise, the session will auto-end without giving you a snooze option)
