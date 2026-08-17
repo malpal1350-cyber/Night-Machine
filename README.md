@@ -1,6 +1,8 @@
 # Night-Machine
 This is for those who don't like most boring sound machines. All you need to do is download the app (recommend using a Raspberry Pi 4 or newer for low power usage).
 
+Notice when downloading. There is a PWA option, which is linked, so it would link you to the web version (unreliable due to strict browser limits, especially audio), or the zip file can be downloaded but might not let you get automatic updates on app start.
+
 To start, create groups, upload audio files, and click Start. You can even use this as a regular audio player. And there are many other features, like an alarm. Enjoy!!
 
 Create groups: choose a name, color, icon, and whether it is a main sound or an effect. Main sounds constantly play, for example, a 3-minute file of crickets, and an effect group is for something like thunder. You can have multiple files, and they will be picked at random. You can choose when this happens
