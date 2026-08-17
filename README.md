@@ -1,7 +1,7 @@
 # Night-Machine
 This is for those who don't like most boring sound machines. All you need to do is download the app (recommend using a Raspberry Pi 4 or newer for low power usage).
 
-Notice when downloading. There is a PWA option, which is linked, so it would link you to the web version (unreliable due to strict browser limits, especially audio), or the zip file can be downloaded but might not let you get automatic updates on app start.
+Notice when downloading. There is a PWA option, which is linked, so it would link you to the web version (unreliable due to strict browser limits, especially audio). At this time, there is no zip file because the file is too big to upload to git hub. The app, if it were unzipped (excluding uploaded sound files), the app would be just under 1 GB)
 
 To start, create groups, upload audio files, and click Start. You can even use this as a regular audio player. And there are many other features, like an alarm. Enjoy!!
 
