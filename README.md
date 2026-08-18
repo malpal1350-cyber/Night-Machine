@@ -1,7 +1,7 @@
 # Night-Machine
-This is for those who don't like most boring sound machines or would like to be able to fully customize their experiance. All you need to do is download the app (recommend using a Raspberry Pi 4 or newer for low power usage).
+This is for those who don't like most boring sound machines or would like to be able to fully customize their experience. All you need to do is download the app (recommend using a Raspberry Pi 4 or newer for low power usage).
 
-Notice when downloading. There is a PWA option, [which is linked](https://night-machine--malpal1350.replit.app/), so it would link you to the web version (unreliable due to strict browser limits, especially audio). For some reason, you can't download from a browser; you can download the zip file. The app, when downloaded onto your device, will be just less than 1 GB.
+Notice when downloading. There is a PWA option, [which is linked](https://night-machine--malpal1350.replit.app/), so it would link you to the web version (unreliable due to strict browser limits, especially audio). For some reason, you can't download from a browser; you can download the zip file. The app, when downloaded onto your device, will be under a GB.
 
 To start, create groups, upload audio files, and click Start. You can even use this as a regular audio player. And there are many other features, like an alarm. Enjoy!!
 
@@ -12,6 +12,6 @@ Notice you have to find or make your own audio files (.mp3 or .wav). You can cho
 
 The music player is just a basic audio player with playlists, a timer to end, and auto-stops when you start your night session.
 
-You can have your session start manually, with a timer, or at a specific time. To end the session, you can end it manually, with a timer, or with an alarm. (Make sure to add an alarm file in the preferences menu; otherwise, the session will auto-end without giving you a snooze option)
+You can have your session start manually, with a timer, or at a specific time. To end the session, you can end it manually, with a timer, or with an alarm. For ease of use, you can save custom timers and alarms so you only have to do a click or 2 to change an alarm instead of hassling to change values. (Make sure to add an alarm file in the preferences menu; otherwise, the session will auto-end without giving you a snooze option)
 
 [Website Link](https://night-machine--malpal1350.replit.app/)
