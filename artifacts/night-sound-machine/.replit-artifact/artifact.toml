@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Night Sound Machine"
+description = "A dark-mode sound session app for Windows and Raspberry Pi that lets users organize audio into groups, run continuous main sounds, and schedule randomized ambient effects with configurable timing and play limits."
+version = "1.0.0"
+id = "artifacts/night-sound-machine"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22639
+
+[services.development]
+run = "pnpm --filter @workspace/night-sound-machine run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/night-sound-machine", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/night-sound-machine/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22639"
+BASE_PATH = "/"

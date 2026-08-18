@@ -1,0 +1,2 @@
+- [Night Sound Machine — dim mode & prefs architecture](night-sound-machine-dim-mode.md) — dim state, wakeup logic, prefs schema for nightDimEnabled/nightDimDelaySecs/nightDimColor
+- [Night Sound Machine — icon picker](night-sound-machine-icon-picker.md) — GROUP_ICONS, GROUP_ICON_MAP, iconForGroup, iconKeyForGroup; iconKeyForGroup required for edit pre-population

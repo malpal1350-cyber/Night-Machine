@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Night Sound Machine</title>
+    <meta name="description" content="Night Sound Machine — built on Replit. Update this description to reflect the app." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Night Sound Machine" />
+    <meta property="og:description" content="Night Sound Machine — built on Replit. Update this description to reflect the app." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Night Sound Machine" />
+    <meta name="twitter:description" content="Night Sound Machine — built on Replit. Update this description to reflect the app." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22Night%20Sound%20Machine%22%2C%22short_name%22%3A%22Night%20Sounds%22%2C%22description%22%3A%22Your%20quiet%20room.%20Local%20sounds%20for%20sleep%20rituals%20%E2%80%94%20no%20internet%20needed.%22%2C%22start_url%22%3A%22%2F%22%2C%22scope%22%3A%22%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%230f0d16%22%2C%22theme_color%22%3A%22%231b1823%22%2C%22orientation%22%3A%22any%22%2C%22categories%22%3A%5B%22lifestyle%22%2C%22health%22%5D%2C%22icons%22%3A%5B%7B%22src%22%3A%22%2Ficon-192.png%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22any%22%7D%2C%7B%22src%22%3A%22%2Ficon-192.png%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22maskable%22%7D%2C%7B%22src%22%3A%22%2Ficon-512.png%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22any%22%7D%2C%7B%22src%22%3A%22%2Ficon-512.png%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22maskable%22%7D%2C%7B%22src%22%3A%22%2Ficon.svg%22%2C%22sizes%22%3A%22any%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%2C%22purpose%22%3A%22any%22%7D%5D%7D" />
+    <meta name="theme-color" content="#1b1823" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Night Sounds" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').catch(function () {
+            // SW registration fails silently when scope doesn't match
+            // (e.g. when served under a sub-path on Replit). That's fine.
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
