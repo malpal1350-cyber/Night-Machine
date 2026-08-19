@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- App background -->
+  <rect width="512" height="512" rx="96" fill="#1b1823"/>
+  <!-- Crescent moon: full circle minus offset cutout via mask -->
+  <defs>
+    <mask id="moon-mask">
+      <rect width="512" height="512" fill="white"/>
+      <circle cx="305" cy="215" r="138" fill="black"/>
+    </mask>
+  </defs>
+  <circle cx="248" cy="258" r="162" fill="#a78bfa" mask="url(#moon-mask)"/>
+  <!-- Soft glow dots (sound/ambient feel) -->
+  <circle cx="370" cy="342" r="14" fill="#7c3aed" opacity="0.55"/>
+  <circle cx="400" cy="310" r="10" fill="#7c3aed" opacity="0.38"/>
+  <circle cx="422" cy="275" r="7"  fill="#7c3aed" opacity="0.25"/>
+</svg>
