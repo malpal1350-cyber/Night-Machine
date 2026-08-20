@@ -10,6 +10,8 @@ Create groups: choose a name, color, icon, and whether it is a main sound or an 
 
 Notice you have to find or make your own audio files (.mp3 or .wav). You can choose what you want so you don't get unexpected sounds.
 
+if you find a sound file you like for example a cricket sound but it has a small cut at the end use a free software called audacity to cut that pause so the audio file when loop doesn't have that pause.
+
 The music player is just a basic audio player with playlists, a timer to end, and auto-stops when you start your night session.
 
 You can have your session start manually, with a timer, or at a specific time. To end the session, you can end it manually, with a timer, or with an alarm. For ease of use, you can save custom timers and alarms so you only have to do a click or 2 to change an alarm instead of hassling to change values. (Make sure to add an alarm file in the preferences menu; otherwise, the session will auto-end without giving you a snooze option)
